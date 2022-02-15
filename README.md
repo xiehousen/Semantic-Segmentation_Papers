@@ -31,3 +31,37 @@ The papers related to datasets used mainly in natural/color image segmentation a
 ##
 
 ## Metrics
+
+##
+
+## Performance tables
+
+Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard to make an equal comparison. We select four indexes namely PixAcc, mAcc, mIoU, and f.w.IOU to make comparison. The closer the segmentation result is to the ground truth, the higher the above four indexes are.
+
+### Cityscapes
+
+|    Method    | PixAcc | mAcc | mIoU(*val*) | mIoU(*test*) | f.w.IOU | Published | Year |
+| :----------: | :----: | :--: | :---------: | :----------: | :-----: | :-------: | ---- |
+|    PSPNet    |        |      |             |              |         |   CVPR    | 2017 |
+| BiseNet.V2-L |   -    |  -   |    75.8     |     75.3     |    -    |           | 2020 |
+|              |        |      |             |              |         |           |      |
+|              |        |      |             |              |         |           |      |
+
+
+
+
+
+
+
+##
+
+## Paper list
+
+- **[PSPNet]** Zhao H, Shi J, Qi X, et al. Pyramid scene parsing network[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2017: 2881-2890. [[Paper](https://openaccess.thecvf.com/content_cvpr_2017/html/Zhao_Pyramid_Scene_Parsing_CVPR_2017_paper.html)] [Code]
+- 
+
+## Contact & Feedback
+
+If you have any suggestions about this project, feel free to contact me.
+
+- [e-mail: xiehousen[at]gmail.com]
