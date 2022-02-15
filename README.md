@@ -1,5 +1,4 @@
 # semantic segmentation paper list
-# semantic segmentation paper list
 
 A paper list of  semantic segmentation.
 
