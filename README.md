@@ -35,16 +35,17 @@ The papers related to datasets used mainly in natural/color image segmentation a
 
 ## Performance tables
 
-Speed is related to the hardware spec (e.g. CPU, GPU, RAM, etc), so it is hard to make an equal comparison. We select four indexes namely PixAcc, mAcc, mIoU, and f.w.IOU to make comparison. The closer the segmentation result is to the ground truth, the higher the above four indexes are.
+We show several evaluation indicators and **backbones** used in the performance table, and indicate the year and source of the article.
 
 ### Cityscapes
 
-|    Method    | PixAcc | mAcc | mIoU(*val*) | mIoU(*test*) | f.w.IOU | Published | Year |
-| :----------: | :----: | :--: | :---------: | :----------: | :-----: | :-------: | ---- |
-|    PSPNet    |        |      |             |              |         |   CVPR    | 2017 |
-| BiseNet.V2-L |   -    |  -   |    75.8     |     75.3     |    -    |           | 2020 |
-|              |        |      |             |              |         |           |      |
-|              |        |      |             |              |         |           |      |
+|    Method    | Backbone  | PixAcc | mAcc | mIoU(*val*) | mIoU(*test*) | f.w.IOU | Published | Year |
+| :----------: | :-------: | :----: | :--: | :---------: | :----------: | :-----: | :-------: | ---- |
+|    PSPNet    | ResNet101 |   -    |  -   |      -      |     78.4     |    -    |   CVPR    | 2017 |
+|  BiseNet.V1  |           |        |      |             |              |         |           |      |
+| BiseNet.V2-L |           |   -    |  -   |    75.8     |     75.3     |    -    |           | 2020 |
+|     STDC     |           |        |      |             |              |         |           |      |
+
 
 
 
